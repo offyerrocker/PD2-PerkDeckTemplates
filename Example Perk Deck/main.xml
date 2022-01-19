@@ -1,0 +1,6 @@
+<mod name="Example Perk Deck" author="Offyerrocker" color="Color(1,0.25,1)">
+	<AssetUpdates id="00000" version="1" provider="modworkshop" install_directory = "mods/" />
+	<Localization directory="loc" default="english.txt">
+		<loc file="english.txt" language="english" />
+	</Localization>
+</mod>

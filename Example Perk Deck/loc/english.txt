@@ -1,0 +1,14 @@
+[
+	"menu_deck_NEWDECK_title" : "The Best Perk Deck Ever",
+	"menu_deck_NEWDECK_desc" : "We've known each other for so long. You heart's been aching but you're too shy to say it.",
+	"menu_deck_NEWDECK_1" : "Never Gonna Give You Up",
+	"menu_deck_NEWDECK_1_desc" : "You and your team gain ##+100%## knowledge of ##the rules##.\n\nYou are ##90%## less likely to be given up.",
+	"menu_deck_NEWDECK_3" : "Never Gonna Let You Down",
+	"menu_deck_NEWDECK_3_desc" : "You are ##75%## less likely to be let down.",
+	"menu_deck_NEWDECK_5" : "Never Gonna Run Around",
+	"menu_deck_NEWDECK_5_desc" : "You are ##15% less likely to be ##hurt## by someone ##running around## or ##deserting you.##",
+	"menu_deck_NEWDECK_7" : "Never Gonna Make You Cry",
+	"menu_deck_NEWDECK_7_desc" : "Your team can no longer ##make you cry##.",
+	"menu_deck_NEWDECK_9" : "Never Gonna Say Goodbye",
+	"menu_deck_NEWDECK_9_desc" : "You are ##45%## less likely to be ##hurt## by someone ##saying goodbye## or someone ##telling a lie##.\n\nYou also gain an additional ##45%## chance for someone to ##desert you.##"
+]
