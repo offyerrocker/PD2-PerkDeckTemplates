@@ -1,4 +1,4 @@
-[
+{
 	"menu_deck_NEWDECK_title" : "The Best Perk Deck Ever",
 	"menu_deck_NEWDECK_desc" : "We've known each other for so long. You heart's been aching but you're too shy to say it.",
 	"menu_deck_NEWDECK_1" : "Never Gonna Give You Up",
@@ -11,4 +11,4 @@
 	"menu_deck_NEWDECK_7_desc" : "Your team can no longer ##make you cry##.",
 	"menu_deck_NEWDECK_9" : "Never Gonna Say Goodbye",
 	"menu_deck_NEWDECK_9_desc" : "You are ##45%## less likely to be ##hurt## by someone ##saying goodbye## or someone ##telling a lie##.\n\nYou also gain an additional ##45%## chance for someone to ##desert you.##"
-]
+}

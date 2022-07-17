@@ -12,7 +12,7 @@ Hooks:PostHook(UpgradesTweakData,"_player_definitions","NEWDECK_init_player_defi
 	self.values.player.UPGRADE_VALUE_7 = {77}
 	self.values.player.UPGRADE_VALUE_9 = {99}
 	
-	self.definitions.NEWDECK_upgrade_1 ={
+	self.definitions.NEWDECK_upgrade_1 = {
 		name_id = "NEWDECK_upgrade_id_1", --name_id field doesn't matter
 		category = "feature",
 		upgrade = {
@@ -21,7 +21,7 @@ Hooks:PostHook(UpgradesTweakData,"_player_definitions","NEWDECK_init_player_defi
 			category = "player"
 		}
 	}
-	self.definitions.NEWDECK_upgrade_3 ={
+	self.definitions.NEWDECK_upgrade_3 = {
 		name_id = "NEWDECK_upgrade_id_3",
 		category = "feature",
 		upgrade = {
@@ -30,7 +30,7 @@ Hooks:PostHook(UpgradesTweakData,"_player_definitions","NEWDECK_init_player_defi
 			category = "player"
 		}
 	}
-	self.definitions.NEWDECK_upgrade_5 ={
+	self.definitions.NEWDECK_upgrade_5 = {
 		name_id = "NEWDECK_upgrade_id_5",
 		category = "feature",
 		upgrade = {
@@ -39,7 +39,7 @@ Hooks:PostHook(UpgradesTweakData,"_player_definitions","NEWDECK_init_player_defi
 			category = "player"
 		}
 	}
-	self.definitions.NEWDECK_upgrade_7 ={
+	self.definitions.NEWDECK_upgrade_7 = {
 		name_id = "NEWDECK_upgrade_id_7",
 		category = "feature",
 		upgrade = {
@@ -48,7 +48,7 @@ Hooks:PostHook(UpgradesTweakData,"_player_definitions","NEWDECK_init_player_defi
 			category = "player"
 		}
 	}
-	self.definitions.NEWDECK_upgrade_9 ={
+	self.definitions.NEWDECK_upgrade_9 = {
 		name_id = "NEWDECK_upgrade_id_9",
 		category = "feature",
 		upgrade = {
