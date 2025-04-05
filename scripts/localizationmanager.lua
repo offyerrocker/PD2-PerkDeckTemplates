@@ -1,6 +1,4 @@
-local localization_path = ModPath .. "localization/english.json"
-Hooks:Add("LocalizationManagerPostInit","QuickChat_LocalizationManagerPostInit",function(localizationmanager)
-	if not BeardLib then 
-		localizationmanager:load_localization_file(localization_path)
-	end
+local localization_path = ModPath .. "l10n/english.json"
+Hooks:Add("LocalizationManagerPostInit","perkdecktemplate_LocalizationManagerPostInit",function(loc_mgr)
+	loc_mgr:load_localization_file(localization_path)
 end)
