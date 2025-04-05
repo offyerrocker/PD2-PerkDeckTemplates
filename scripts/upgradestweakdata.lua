@@ -1,10 +1,3 @@
-Hooks:PostHook(UpgradesTweakData,"_init_pd2_values","NEWDECK_init_pd2_values",function(self)
---	self.byp_multikill_buff_dodge_chance = 0.4
-end)
-Hooks:PostHook(UpgradesTweakData,"_weapon_definitions","NEWDECK_upgradestweak__weapon_definitions",function(self)
---	self.values.weapon.byp_head_mult = {1.5}
-end)
-
 Hooks:PostHook(UpgradesTweakData,"_player_definitions","NEWDECK_init_player_definitions",function(self)
 	self.values.player.UPGRADE_VALUE_1 = {12345}
 	self.values.player.UPGRADE_VALUE_3 = {33}
