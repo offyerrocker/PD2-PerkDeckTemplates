@@ -1,0 +1,12 @@
+<mod name="Example Perk Deck" author="Offyerrocker" color="Color(1,0.25,1)">
+	<AssetUpdates id="00000" version="1" provider="modworkshop" install_directory = "mods/" />
+	<Localization directory="localization" default="english.json">
+		<loc file="english.json" language="english" />
+	</Localization>
+	
+	<AddFiles directory="assets">
+		<texture path="guis/dlcs/YOURPERKDECKNAMEHERE/textures/pd2/blackmarket/icons/grenades/ABILITYNAMEHERE"/>
+		<texture path="guis/dlcs/YOURPERKDECKNAMEHERE/textures/pd2/specialization/icons_atlas"/>
+	</AddFiles>
+	
+</mod>

@@ -1,3 +1,9 @@
+Hooks:PostHook(UpgradesTweakData,"_grenades_definitions","NEWDECK_init_grenades_definitions",function(self)
+	self.definitions.THROWABLE_NAME = {
+		category = "grenade"
+	}
+end)
+
 Hooks:PostHook(UpgradesTweakData,"_player_definitions","NEWDECK_init_player_definitions",function(self)
 	self.values.player.UPGRADE_VALUE_1 = {12345}
 	self.values.player.UPGRADE_VALUE_3 = {33}
