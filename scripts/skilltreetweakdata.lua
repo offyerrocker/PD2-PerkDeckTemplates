@@ -23,108 +23,102 @@ Hooks:PostHook(SkillTreeTweakData,"init","NEWPERKDECK_initskilltree",function(se
 		},
 		{
 			upgrades = {
+				"THROWABLE_NAME",
 				"NEWDECK_upgrade_1"
 			},
-			cost = 200,
-			icon_xy = {0, 5},
+			cost = 0,
+			texture_bundle_folder = "YOURPERKDECKDLCNAME",
+			icon_xy = { 0, 0 },
 			name_id = "menu_deck_NEWDECK_1",
 			desc_id = "menu_deck_NEWDECK_1_desc"
 		},
-		{
+		{ -- generic card 2
 			name_id = "menu_deckall_2",
 			desc_id = "menu_deckall_fixed_2_desc",
-			cost = 300,
+			cost = 0,
 			upgrades = {
 				"weapon_passive_headshot_damage_multiplier"
 			},
-			icon_xy = {
-				1,
-				0
-			}
+			icon_xy = { 1, 0 }
 		},
 		{
 			name_id = "menu_deck_NEWDECK_3",
 			desc_id = "menu_deck_NEWDECK_3_desc",
-			cost = 400,
+			cost = 0,
 			upgrades = {
 				"NEWDECK_upgrade_3"
 			},
-			icon_xy = {0, 3}
+			texture_bundle_folder = "YOURPERKDECKDLCNAME",
+			icon_xy = { 1, 0 }
 		},
-		{
+		{ -- generic card 4
 			name_id = "menu_deckall_4",
 			desc_id = "menu_deckall_fixed_4_desc",
-			cost = 600,
+			cost = 0,
 			upgrades = {
 				"passive_player_xp_multiplier",
 				"player_passive_suspicion_bonus",
 				"player_passive_armor_movement_penalty_multiplier"
 			},
-			icon_xy = {
-				3,
-				0
-			}
+			icon_xy = { 3, 0 }
 		},
 		{
 			name_id = "menu_deck_NEWDECK_5",
 			desc_id = "menu_deck_NEWDECK_5_desc",
-			cost = 1000,
+			cost = 0,
 			upgrades = {
 				"NEWDECK_upgrade_5"
 			},
-			icon_xy = {2, 5}
+			texture_bundle_folder = "YOURPERKDECKDLCNAME",
+			icon_xy = { 2, 0 }
 		},
-		{
+		{ -- generic card 6
 			name_id = "menu_deckall_6",
 			desc_id = "menu_deckall_fixed_6_desc",
-			cost = 1600,
+			cost = 0,
 			upgrades = {
 				"armor_kit",
 				"player_pick_up_ammo_multiplier"
 			},
-			icon_xy = {
-				5,
-				0
-			}
+			icon_xy = { 5, 0 }
 		},
 		{
 			name_id = "menu_deck_NEWDECK_7",
 			desc_id = "menu_deck_NEWDECK_7_desc",
-			cost = 2400,
+			cost = 0,
 			upgrades = {
 				"NEWDECK_upgrade_7"
 			},
-			icon_xy = {1, 4}
+			texture_bundle_folder = "YOURPERKDECKDLCNAME",
+			icon_xy = { 3, 0 }
 		},
-		{
+		{ -- generic card 8
 			name_id = "menu_deckall_8",
 			desc_id = "menu_deckall_fixed_8_desc",
-			cost = 3200,
+			cost = 0,
 			upgrades = {
 				"weapon_passive_damage_multiplier",
 				"passive_doctor_bag_interaction_speed_multiplier"
 			},
-			icon_xy = {
-				7,
-				0
-			}
+			icon_xy = { 7, 0 }
 		},
 		{
 			name_id = "menu_deck_NEWDECK_9",
 			desc_id = "menu_deck_NEWDECK_9_desc",
-			cost = 3200,
+			cost = 0,
 			upgrades = {
 				"NEWDECK_upgrade_9",
 				"player_passive_loot_drop_multiplier"
 			},
-			icon_xy = {6, 4}
+			texture_bundle_folder = "YOURPERKDECKDLCNAME",
+			icon_xy = { 0, 1 }
 		}
 	}
 	
 	--the specializations table is where all perk decks are stored; we will insert our perk deck data here so that the game can add it and we can equip it
 	table.insert(self.specializations,perk_deck_data)
 	
-	Hooks:Add("LocalizationManagerPostInit", "NEWDECK_addlocalization", function( loc )
+	Hooks:Add("LocalizationManagerPostInit", "PERKDECKTEMPLATE_addlocalization", function( loc )
 
 	--due to how overkill has set up localization macros (selectively replacing certain substrings in a localization string),
 	--we can't just copy the existing localization ids for the descriptions (the names are fine).

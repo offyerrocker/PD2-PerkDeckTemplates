@@ -1,12 +1,11 @@
 <mod name="Example Perk Deck" author="Offyerrocker" color="Color(1,0.25,1)">
-	<AssetUpdates id="00000" version="1" provider="modworkshop" install_directory = "mods/" />
-	<Localization directory="localization" default="english.json">
+	<AssetUpdates id="-1" version="1" provider="modworkshop" install_directory = "mods/" />
+	<Localization directory="l10n" default="english.json">
 		<loc file="english.json" language="english" />
 	</Localization>
-	
 	<AddFiles directory="assets">
-		<texture path="guis/dlcs/YOURPERKDECKNAMEHERE/textures/pd2/blackmarket/icons/grenades/ABILITYNAMEHERE"/>
-		<texture path="guis/dlcs/YOURPERKDECKNAMEHERE/textures/pd2/specialization/icons_atlas"/>
+		<texture path="guis/dlcs/YOURPERKDECKDLCNAME/textures/pd2/blackmarket/icons/grenades/THROWABLE_NAME"/>
+		<texture path="guis/dlcs/YOURPERKDECKDLCNAME/textures/pd2/specialization/icons_atlas"/>
+		<texture path="guis/dlcs/YOURPERKDECKDLCNAME/textures/pd2/hud_THROWABLE_NAME"/>
 	</AddFiles>
-	
 </mod>
